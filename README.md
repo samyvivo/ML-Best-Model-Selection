@@ -7,14 +7,14 @@ How to identify the best model for machine learning? 🤔 What is the concept of
 #Data_Definition:
 
 X = [0,1,2,3,4,5,6,7,8,9,10]
-
 y = [3000, 4000, 4500, 5000, 7000, 7800, 7900, 9000, 9200, 10000, 20000 ]
+
 - Input variable (X): Years of experience (values ​​from no experience to 10 years of experience)
 - Target variable (y): Relevant income values ​​(from a base of $3,000 to $20,000)
 
 #Model_Evaluation
 
-1️⃣(Linear Regression) Linear Regression
+1️⃣Linear Regression
 
 - Simple linear relationship between experience and income.
 - Produces a straight line fit.
@@ -26,7 +26,7 @@ Year 15: $19,945
 Year 20: $25,945
 Year 100: $121,945
 
-2️⃣ (Polynomial Regression)
+2️⃣Polynomial Regression
 - Nonlinear relationship between experience and income
 - Polynomial transformation (here degree 3) is used
 - Provides a better fit to the data than simple linear regression
@@ -37,22 +37,22 @@ Year 15: $74,922
 Year 20: $216,406
 Year 100: $45,588,043
 
-3️⃣ (Random Forest Regression)
+3️⃣Random Forest Regression
 - Provides a better fit than the previous two models.
 - Predicted values ​​closely match the actual data points.
 
-Random Forest Prior Values:
+Random Forest Values predicted values:
 Year 10: $16,378
 Year 15: $16,378
 Year 20: $16,378
 Year 100: $16,378
 
-4️⃣ (XGBOOST Regression) XGBOOST Regressor
+4️⃣XGBOOST Regressor
 - Able to capture complex patterns.
 - Shows the best fit of all models.
 - Predicted values ​​match the actual data points "perfectly".
 
-Previous XGBOOST values:
+XGBOOST predicted values:
 Year 10: $19,999
 Year 15: $19,999
 Year 20: $19,999

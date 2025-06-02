@@ -4,7 +4,7 @@ Machine Learning Model Selection Analysis 🧠
 
 How to identify the best model for machine learning? 🤔 What is the concept of overfit and underfit? Here, I tried to explain this concept simply with a simple example and using different algorithms.
 
-hashtag#Data_Definition:
+#Data_Definition:
 
 X = [0,1,2,3,4,5,6,7,8,9,10]
 
@@ -12,7 +12,7 @@ y = [3000, 4000, 4500, 5000, 7000, 7800, 7900, 9000, 9200, 10000, 20000 ]
 - Input variable (X): Years of experience (values ​​from no experience to 10 years of experience)
 - Target variable (y): Relevant income values ​​(from a base of $3,000 to $20,000)
 
-hashtag#Model_Evaluation
+#Model_Evaluation
 
 1️⃣(Linear Regression) Linear Regression
 
@@ -58,7 +58,7 @@ Year 15: $19,999
 Year 20: $19,999
 Year 100: $19,999
 
-hashtag#final_conclusion
+#final_conclusion
 -As you can see from the figures and predicted values, more complex models such as random forest and XGBOOST (tree-based) perform very well in modeling the data, but they completely fail in predicting the values ​​of subsequent years (after ten years), so that they cannot predict at all and only provide a fixed value.
 
 -Polynomial regression (with degree 3) performs better than simple regression in modeling, but again in predicting this simple regression has the best performance.

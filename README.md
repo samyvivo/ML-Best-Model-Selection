@@ -71,4 +71,4 @@ Choosing the right machine learning model depends on several factors, including 
 4. Consider computational cost and interpretability
 5. Practical workflow for model selection
 
-scikit-learn has a page called the Machine Learning Roadmap, known among programmers in this field as the scikit learn cheat sheet, which can help you a lot in choosing the right model: https://lnkd.in/e3EbYFwj
+scikit-learn has a page called the Machine Learning Roadmap, known among programmers in this field as the scikit learn cheat sheet, which can help you a lot in choosing the right model: [https://scikit-learn.org/1.4/tutorial/machine_learning_map/index.html](https://scikit-learn.org/1.4/tutorial/machine_learning_map/index.html)
